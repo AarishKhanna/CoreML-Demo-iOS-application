@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404082BE29A34DF0007E7B64 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404082BD29A34DF0007E7B64 /* MyViewController.swift */; };
 		408F81DB299B98A1008BF43E /* exampleProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F81DA299B98A1008BF43E /* exampleProjectApp.swift */; };
 		408F81DD299B98A1008BF43E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F81DC299B98A1008BF43E /* ContentView.swift */; };
 		408F81DF299B98A6008BF43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408F81DE299B98A6008BF43E /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		408F81EC299B98A7008BF43E /* exampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F81EB299B98A7008BF43E /* exampleProjectTests.swift */; };
 		408F81F6299B98A7008BF43E /* exampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F81F5299B98A7008BF43E /* exampleProjectUITests.swift */; };
 		408F81F8299B98A7008BF43E /* exampleProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F81F7299B98A7008BF43E /* exampleProjectUITestsLaunchTests.swift */; };
+		40FD6F92299E4D7600032954 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 40FD6F91299E4D7600032954 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		404082BD29A34DF0007E7B64 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		408F81D7299B98A1008BF43E /* exampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F81DA299B98A1008BF43E /* exampleProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleProjectApp.swift; sourceTree = "<group>"; };
 		408F81DC299B98A1008BF43E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		408F81F1299B98A7008BF43E /* exampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F81F5299B98A7008BF43E /* exampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleProjectUITests.swift; sourceTree = "<group>"; };
 		408F81F7299B98A7008BF43E /* exampleProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40FD6F91299E4D7600032954 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = ../../SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				408F81DA299B98A1008BF43E /* exampleProjectApp.swift */,
+				40FD6F91299E4D7600032954 /* SleepCalculator.mlmodel */,
 				408F81DC299B98A1008BF43E /* ContentView.swift */,
 				408F81DE299B98A6008BF43E /* Assets.xcassets */,
 				408F81E0299B98A6008BF43E /* Preview Content */,
+				404082BD29A34DF0007E7B64 /* MyViewController.swift */,
 			);
 			path = exampleProject;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FD6F92299E4D7600032954 /* SleepCalculator.mlmodel in Sources */,
 				408F81DD299B98A1008BF43E /* ContentView.swift in Sources */,
+				404082BE29A34DF0007E7B64 /* MyViewController.swift in Sources */,
 				408F81DB299B98A1008BF43E /* exampleProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
